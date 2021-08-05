@@ -4,6 +4,7 @@ const app=express();
 const hbs=require('hbs');
 require('./hbs/helper');
 
+const port = process.env.PORT || 8080;
 app.use(express.static(__dirname+'/public'));
 
 //Express HBS veiw engine
