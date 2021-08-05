@@ -1,0 +1,218 @@
+body{
+    background-color:black;
+}
+.Encabezado {
+   /* background: url(https://i.blogs.es/4755f7/accion/1366_2000.jpeg);*/
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.Encabezado div{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.Encabezado h2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.Encabezado h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.Encabezado button{
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    color: #ffa260;
+    border: 2.5px solid;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s,box-shadow 0.25s,border-color 0.25s;
+}
+.Encabezado button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.3);
+}
+.Informacion {
+    font-family: 'Akaya Telivigala', cursive;
+    background-color:black;
+    display:flex;
+    height: auto;
+    margin-left: 19%;
+    margin-right: 19%;
+    align-items: center;
+    padding: auto;
+}
+.Img img{
+    margin: 60px;
+    padding: 10px;
+    align-content: center;
+    width: 70%;
+    border: 1.5px solid white;
+}
+.Img img:hover{
+    border-color: rgb(184, 24, 24);
+    color: orangered;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em red;
+    transform: translateY(-0.4);
+}
+
+.Img2 {
+    
+    color: white;
+}
+.Img2 button{
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    color: white;
+    border: 1px solid;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s,box-shadow 0.25s,border-color 0.25s;
+}
+.Img2 button:hover{
+    border-color: rgb(184, 24, 24);
+    color: orangered;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em red;
+    transform: translateY(-0.4);
+}
+.Productos {
+    font-family: 'Akaya Telivigala', cursive;
+    background-color:white;
+    display:flex;
+    align-items: center;
+}
+.Productos p{
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+    margin: 3px;
+}
+.Productos article{
+    margin: 10px;
+}
+.Pro1{
+    color:black;
+    text-align:justify;
+}
+.Productos img{
+    width: 200px;
+}
+.Productos img{
+    color: black;
+   
+    padding: 0.5em 1em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s,box-shadow 0.25s,border-color 0.25s;
+}
+
+.Productos img:hover{
+    border-color: rgb(184, 24, 24);
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em red;
+    transform: translateY(-0.3);
+}
+.Productos h3{
+    color:black;
+    text-align:justify;
+}
+.Pro1 button{
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    color: black;
+    border: 2.5px solid;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    transition: color 0.25s, transform 0.25s,box-shadow 0.25s,border-color 0.25s;
+}
+.Pro1 button:hover{
+    border-color: rgb(184, 24, 24);
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em red;
+    transform: translateY(-0.3);
+}
+.Contactos{
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+    text-align: center;
+}
+.Contactos h3{
+    top: 50%;
+    color: white;
+}
+
+.footer {
+    font-family: 'Akaya Telivigala', cursive;
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+.row{
+    color: white;
+}
+@media(max-width:800px){
+    .Encabezado{
+        display: inline-block;
+    }
+    .Encabezado h2{
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 20px;
+        text-align: center;
+    }
+    .Encabezado h1{
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 30px;
+        text-align: center;
+    }
+    .Encabezado button{
+        font-family: 'Akaya Telivigala', cursive;
+        background: none;
+        color: #ffa260;
+        border: 2.5px solid;
+        padding: 1em 1.5em;
+        font-size: 0.7em;
+        transition: color 0.25s, transform 0.25s,box-shadow 0.25s,border-color 0.25s;
+    }
+   .Informacion{
+       display: inline-block;
+     }
+   .Img img{
+    margin: 60px;
+    padding: 10px;
+    align-content: center;
+    width: 85%;
+    border: 1.5px solid white;
+    }
+   .Productos{
+       display: block;  
+   }
+   .Contactos{
+       display: block;
+   }
+}
+
+
+
+
+
+
